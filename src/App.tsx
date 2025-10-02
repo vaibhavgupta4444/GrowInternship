@@ -129,7 +129,7 @@ useEffect(() => {
           <Column field="id" header="ID" />
           <Column field="title" header="Title" sortable />
           <Column field="place_of_origin" header="Place of Origin" sortable />
-          <Column field="artist_display" header="Artist Displaygg" />
+          <Column field="artist_display" header="Artist Display" />
           <Column field="inscriptions" header="Inscriptions" />
           <Column field="date_start" header="Date Start" sortable/>
           <Column field="date_end" header="Date End" sortable />
