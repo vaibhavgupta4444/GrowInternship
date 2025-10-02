@@ -27,6 +27,7 @@ function HomePage() {
       if (response) {
         setArtWorks(response.artworks);
         setTotalRecords(response.pagination.total);
+        setRows(response.pagination.limit);
       }
     } catch (error) {
       console.error('Error fetching artworks:', error);
